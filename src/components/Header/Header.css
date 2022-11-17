@@ -1,0 +1,130 @@
+.header{
+    background-image: url('../../assets/section1/herosection.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.header .header-body{
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.705);
+}
+
+/* header top styles */
+
+.header .header-body .header-t{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .header-body .header-t .logo{
+    width: 160px;
+    height: 130px;
+    margin-top: -10px;
+}
+
+.header .header-body .header-t .buttons{
+    margin: -20px -50px 0px 0px;
+    display: flex;
+    gap: 30px;
+}
+
+.header .header-body .header-t .buttons .btn1{
+    background: none;
+    outline: none;
+    border: 1px solid white;
+    padding: 4px;
+    border-radius: 3px;
+}
+
+.header .header-body .header-t .buttons .btn1 img{
+  width: 10px;
+}
+
+.header .header-body .header-t .buttons .btn1 select{
+    outline: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.header .header-body .header-t .buttons .btn1 select option{
+    color: black;
+}
+
+.header .header-body .header-t .buttons .btn2{
+    padding: 6px;
+    background: rgb(236, 26, 26);
+    color: white;
+    width: 80px;
+    border: none;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+/* header bottom styles */
+
+.header .header-body .header-b{
+    margin-top: 100px;
+    color: #fff;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .header-body .header-b .content{
+    width: 620px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.header .header-body .header-b .content h1{
+    font-size: 50px;
+    line-height: 60px;
+}
+
+.header .header-body .header-b .content h3{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.header .header-body .header-b .content p{
+    font-size: 17px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+.header .header-body .header-b .email-form{
+    display: flex;
+    align-items: center;
+}
+
+.header .header-body .header-b .email-form input{
+    height: 60px;
+    width: 450px;
+    outline: none;
+    border: none;
+    padding-left: 20px;
+}
+
+.header .header-body .header-b .email-form button{
+    height: 60px;
+    width: 220px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border: 1px solid red;
+    background: red;
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+}

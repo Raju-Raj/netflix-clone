@@ -1,0 +1,50 @@
+.sec-one{
+    background: black;
+    height: 70vh;
+}
+
+.sec-one .secOne-body{
+    display: flex;
+    gap: 20px;
+}
+
+.sec-one .secOne-body .secOne-l{
+    color: #fff;
+    margin-left: 30px;
+    margin-right: 40px;
+    width: 50%;
+}
+
+.sec-one .secOne-body .secOne-l h1{
+    font-size: 50px;
+    margin-bottom: 5px;
+    margin-top: 100px;
+}
+
+.sec-one .secOne-body .secOne-l h3{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.sec-one .secOne-body .secOne-r{
+    position: relative;
+    width: 50%;
+    margin-top: 80px;
+    margin-right: -80px;
+}
+
+.sec-one .secOne-body .secOne-r img{
+    width: 500px;
+    height: 380px;
+    position: absolute;
+    z-index: 1;
+    top: -75px;
+}
+
+.sec-one .secOne-body .secOne-r video{
+    width: 410px;
+    height: 210px;
+    position: absolute;
+    top: 0px;
+    left: 47px;
+}

@@ -1,0 +1,33 @@
+.section-four{
+    background: black;
+    height: 75vh;
+}
+
+.section-four .secFour-body{
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-four .secFour-body .secFour-l img{
+    width: 500px;
+}
+
+.section-four .secFour-body .secFour-r .content{
+    width: 600px;
+    color: white;
+}
+
+.section-four .secFour-body .secFour-r .content h1{
+    font-size: 48px;
+    line-height: 55px;
+    margin-bottom: 20px;
+}
+
+.section-four .secFour-body .secFour-r .content h3{
+    font-size: 28px;
+    line-height: 30px;
+    font-weight: 400;
+}

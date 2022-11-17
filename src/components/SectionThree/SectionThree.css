@@ -1,0 +1,49 @@
+.section-three{
+    background: black;
+    height: 75vh;
+}
+
+.section-three .secThree-body{
+    display: flex;
+
+}
+
+.section-three .secThree-body .secthree-l{
+    width: 50%;
+}
+
+.section-three .secThree-body .secthree-l .content{
+    color: #fff;
+    width: 520px;
+    margin-top: 140px;
+    margin-left: 150px;
+}
+
+.section-three .secThree-body .secthree-l .content h1{
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.section-three .secThree-body .secthree-l .content h3{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.section-three .secThree-body .secthree-r{
+    position: relative;
+    width: 50%;
+}
+
+.section-three .secThree-body .secthree-r video{
+   width: 320px;
+   position: absolute;
+   top:50px;
+   left:110px;
+}
+
+.section-three .secThree-body .secthree-r img{
+    position: absolute;
+    top: 10px;
+    width: 550px;
+    z-index: 1;
+}

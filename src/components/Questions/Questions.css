@@ -1,0 +1,38 @@
+.questions{
+    width: 800px;
+}
+
+.questions .heading>:nth-child(1){
+    font-weight: 500;
+    font-size: 25px;
+}
+.questions .heading{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(58, 55, 55);
+    color:white ;
+    padding: 10px;
+}
+
+.questions .heading span{
+    font-size: 40px;
+}
+
+.questions .content{
+    background: rgb(58, 55, 55);
+    color:white ;
+    padding: 0px;
+    height: 0px;
+    overflow: hidden;
+    transition: 0.2s linear;
+}
+
+.questions .content.active{
+    height: auto;
+    padding: 20px;
+}
+
+.questions hr{
+    background: black;
+    height: 1px;
+}
